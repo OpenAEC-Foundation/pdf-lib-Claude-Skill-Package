@@ -1,6 +1,12 @@
 ---
 name: pdflib-errors-common
-description: "Diagnoses and fixes common pdf-lib mistakes including forgotten await, coordinate system confusion, unsupported image formats, cross-document page errors, form field name issues, color value range errors, and save option side effects. Activates when debugging pdf-lib code, encountering unexpected behavior, or reviewing pdf-lib code for correctness."
+description: >
+  Use when debugging unexpected pdf-lib behavior — blank pages, wrong positions,
+  missing content, or runtime errors. Prevents the top 10 pdf-lib mistakes:
+  forgotten await, wrong coordinate origin, unsupported image formats, cross-document
+  page errors, case-sensitive field names, color values 0-255 instead of 0-1.
+  Covers async errors, coordinate bugs, image format errors, form field issues.
+  Keywords: debug, blank page, wrong position, undefined, await, coordinate, 0-255, field not found.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

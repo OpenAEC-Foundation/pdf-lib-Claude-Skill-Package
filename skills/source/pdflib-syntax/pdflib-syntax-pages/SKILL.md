@@ -1,6 +1,11 @@
 ---
 name: pdflib-syntax-pages
-description: "Guides page operations in pdf-lib including adding, inserting, removing, and getting pages, page dimensions, PageSizes enum, rotation, page boxes, and content transformations. Activates when adding pages, setting page sizes, rotating pages, or manipulating page dimensions."
+description: >
+  Use when adding, removing, or manipulating pages in a pdf-lib document.
+  Prevents incorrect page sizing by providing the complete PageSizes enum (55 sizes)
+  and correct dimension methods. Covers addPage, insertPage, removePage, getPage,
+  page dimensions, rotation, page boxes, content transformations.
+  Keywords: addPage, insertPage, removePage, getPage, PageSizes, setSize, rotation.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

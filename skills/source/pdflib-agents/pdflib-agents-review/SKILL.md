@@ -1,6 +1,11 @@
 ---
 name: pdflib-agents-review
-description: "Validates generated pdf-lib code for correctness including async/await audit, coordinate system verification, font handling checks, import completeness, form handling validation, and anti-pattern detection. Activates when reviewing pdf-lib code, validating PDF generation code, or checking code for common pdf-lib mistakes."
+description: >
+  Use when reviewing or validating pdf-lib code before deployment.
+  Prevents shipping broken PDF generation: runs a 7-point checklist covering
+  async/await, coordinate system, font handling, imports, form handling, and
+  known anti-patterns. Catches issues Claude's default code generation misses.
+  Keywords: review, validate, audit, checklist, code review, anti-pattern, quality check.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: pdflib-impl-page-layout
-description: "Guides page layout strategies in pdf-lib including coordinate system helpers, margin management, text centering, multi-column layouts, content flow across pages, and top-down positioning patterns. Activates when positioning content on PDF pages, calculating layout, centering elements, or managing content flow."
+description: >
+  Use when positioning content on PDF pages — margins, centering, columns, or
+  content flow across pages. Prevents the #1 layout mistake: using top-left
+  coordinates instead of pdf-lib's bottom-left origin. Provides a top-down
+  positioning helper pattern (height - y).
+  Covers coordinate strategies, margins, centering, multi-column, page breaks.
+  Keywords: layout, margin, center, column, coordinate, top-down, position, content flow.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

@@ -1,6 +1,11 @@
 ---
 name: pdflib-syntax-text
-description: "Guides text drawing in pdf-lib including drawText options, text positioning, multiline text, text wrapping, text measuring, and centering. Activates when drawing text on PDF pages, positioning text, wrapping text, measuring text width, or centering text."
+description: >
+  Use when drawing text on PDF pages with pdf-lib, including positioning,
+  multiline text, and text measurement. Prevents the common mistake of using
+  top-left coordinates for text positioning (pdf-lib uses bottom-left origin).
+  Covers drawText options, text wrapping with maxWidth, font measurement methods.
+  Keywords: drawText, setFont, setFontSize, widthOfTextAtSize, heightAtSize, multiline, maxWidth.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

@@ -1,6 +1,11 @@
 ---
 name: pdflib-syntax-images
-description: "Guides image embedding and drawing in pdf-lib including PNG and JPG embedding, image scaling, aspect ratio preservation, and drawImage options. Activates when embedding images in PDFs, drawing images on pages, scaling images, or working with image dimensions."
+description: >
+  Use when embedding or drawing images in pdf-lib PDFs.
+  Prevents the common mistake of using unsupported image formats (only PNG and JPG
+  are supported — no SVG, GIF, or WebP). Covers embedPng, embedJpg, drawImage,
+  image scaling, aspect ratio preservation.
+  Keywords: embedPng, embedJpg, drawImage, PDFImage, scale, scaleToFit, image, PNG, JPG.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

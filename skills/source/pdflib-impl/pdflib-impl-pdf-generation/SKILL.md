@@ -1,6 +1,11 @@
 ---
 name: pdflib-impl-pdf-generation
-description: "Guides end-to-end PDF generation workflows in pdf-lib including multi-page documents, headers and footers, page numbering, table-like layouts, and document templates. Activates when generating PDFs from scratch, creating invoices, building reports, or producing multi-page documents."
+description: >
+  Use when building complete PDF documents from scratch with pdf-lib — invoices,
+  reports, certificates, or multi-page layouts. Prevents content overflow by
+  providing page-break detection and content flow patterns.
+  Covers multi-page generation, headers/footers, page numbering, table layouts, templates.
+  Keywords: invoice, report, template, header, footer, page number, table, multi-page, generate.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

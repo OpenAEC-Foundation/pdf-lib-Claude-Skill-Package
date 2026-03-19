@@ -1,6 +1,11 @@
 ---
 name: pdflib-impl-merging
-description: "Guides PDF merging, splitting, and page manipulation in pdf-lib including copying pages between documents, extracting page ranges, splitting into individual pages, and reordering pages. Activates when merging PDFs, splitting PDFs, extracting pages, or combining multiple PDF documents."
+description: >
+  Use when merging, splitting, or reordering PDF pages across documents with pdf-lib.
+  Prevents the critical cross-document error: directly adding pages from another
+  document instead of using copyPages() first, which corrupts the PDF.
+  Covers copyPages workflow, merge patterns, page extraction, splitting, reordering.
+  Keywords: copyPages, merge, split, extract, addPage, insertPage, cross-document.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

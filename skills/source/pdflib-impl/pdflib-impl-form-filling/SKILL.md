@@ -1,6 +1,11 @@
 ---
 name: pdflib-impl-form-filling
-description: "Guides complete form filling workflows in pdf-lib including reading existing forms, filling text fields, checking boxes, selecting options, custom font support for unicode, and form flattening. Activates when filling PDF forms, creating interactive forms, flattening form fields, or handling unicode in form fields."
+description: >
+  Use when filling existing PDF forms or creating form-filling workflows with pdf-lib.
+  Prevents the #1 form mistake: not calling form.updateFieldAppearances() with a
+  custom font before flattening, causing unicode text to disappear.
+  Covers form loading, field filling, checkbox/radio/dropdown, unicode fonts, flattening.
+  Keywords: form.flatten, setText, check, select, updateFieldAppearances, PDFForm, fillable.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

@@ -1,6 +1,11 @@
 ---
 name: pdflib-agents-project-scaffolder
-description: "Generates complete pdf-lib project structures including TypeScript configuration, dependency installation, fontkit setup, PDF generation boilerplate, and platform-specific variants. Activates when creating a new pdf-lib project, scaffolding PDF generation code, or setting up pdf-lib in an existing project."
+description: >
+  Use when scaffolding a new pdf-lib project or adding pdf-lib to an existing
+  project. Prevents incomplete setup: ensures TypeScript config, fontkit
+  registration, and correct imports are all in place from the start.
+  Covers Node.js and browser variants, TypeScript setup, dependency installation.
+  Keywords: scaffold, setup, new project, boilerplate, TypeScript, fontkit, npm install.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

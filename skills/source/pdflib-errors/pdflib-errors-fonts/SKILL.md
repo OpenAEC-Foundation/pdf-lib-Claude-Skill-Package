@@ -1,6 +1,12 @@
 ---
 name: pdflib-errors-fonts
-description: "Diagnoses and fixes font-related errors in pdf-lib including WinAnsi encoding failures, missing fontkit registration, unicode character support issues, font embedding failures, and form field font problems. Activates when encountering font errors, WinAnsi encoding errors, unicode rendering issues, or fontkit problems."
+description: >
+  Use when encountering font errors in pdf-lib — WinAnsi encoding failures,
+  fontkit registration errors, or unicode characters not rendering.
+  Prevents repeated debugging: standard fonts ONLY support Latin-1 (WinAnsi).
+  Any non-Latin text requires custom fonts via @pdf-lib/fontkit.
+  Covers WinAnsi errors, fontkit setup, font embedding failures, form font issues.
+  Keywords: WinAnsi, encoding error, fontkit, unicode, font embedding, Latin-1, diacritics.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

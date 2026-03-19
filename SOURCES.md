@@ -65,4 +65,8 @@ All skills in this package MUST be verified against these approved sources. No o
 
 | Technology | Date | Action | Notes |
 |------------|------|--------|-------|
-| pdf-lib | 2026-03-19 | Initial setup | All URLs pending verification |
+| pdf-lib Website | 2026-03-19 | WebFetch verification | API docs confirmed for pdf-lib 1.17.x |
+| pdf-lib GitHub | 2026-03-19 | WebFetch verification | Repository, examples, and issues reviewed |
+| pdf-lib npm | 2026-03-19 | WebFetch verification | Version info confirmed |
+| @pdf-lib/fontkit npm | 2026-03-19 | WebFetch verification | Custom font package confirmed |
+| PDF Reference 1.7 | 2026-03-19 | Reference only | Specification for coordinate system, page sizes |

@@ -1,6 +1,11 @@
 ---
 name: pdflib-syntax-forms
-description: "Guides PDF form field operations in pdf-lib including accessing forms, field types (text, checkbox, radio, dropdown, option list, button, signature), creating fields, field properties, and form flattening. Activates when working with PDF forms, reading form fields, creating form fields, or flattening forms."
+description: >
+  Use when working with PDF form fields in pdf-lib — reading, creating, or
+  manipulating fields. Prevents the common mistake of not calling form.flatten()
+  after filling, leaving forms editable when they should be locked.
+  Covers getForm, all field types (text, checkbox, radio, dropdown), field properties, flattening.
+  Keywords: getForm, PDFForm, PDFTextField, PDFCheckBox, PDFRadioGroup, PDFDropdown, flatten.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

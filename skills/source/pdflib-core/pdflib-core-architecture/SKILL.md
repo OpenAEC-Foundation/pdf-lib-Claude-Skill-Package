@@ -1,6 +1,11 @@
 ---
 name: pdflib-core-architecture
-description: "Guides pdf-lib architecture including PDFDocument lifecycle, async-first API design, bottom-left coordinate system, key types, installation, and project setup. Activates when creating PDFs with pdf-lib, understanding pdf-lib project structure, or setting up a new pdf-lib project."
+description: >
+  Use when starting a new pdf-lib project, setting up imports, or understanding
+  the library architecture. Prevents the #1 AI mistake: forgetting async/await
+  on pdf-lib operations and using top-left coordinates instead of bottom-left.
+  Covers PDFDocument lifecycle, key types, coordinate system, installation, fontkit setup.
+  Keywords: pdf-lib, PDFDocument, PDFPage, setup, install, coordinate system, async, await.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

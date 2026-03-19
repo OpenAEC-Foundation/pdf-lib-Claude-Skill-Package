@@ -1,6 +1,11 @@
 ---
 name: pdflib-errors-loading
-description: "Diagnoses and fixes PDF loading errors in pdf-lib including encrypted PDF handling, malformed PDF recovery, ignoreEncryption usage, and load option configuration. Activates when encountering PDF loading errors, encrypted PDF errors, or malformed PDF parsing failures."
+description: >
+  Use when PDFDocument.load() fails with encryption errors, malformed PDF errors,
+  or unexpected parsing failures. Prevents silent data loss: pdf-lib cannot decrypt
+  PDFs — ignoreEncryption only skips the check, it does not decrypt content.
+  Covers encrypted PDF handling, malformed PDF recovery, load options, error patterns.
+  Keywords: load error, encrypted, ignoreEncryption, malformed, throwOnInvalidObject, parse error.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

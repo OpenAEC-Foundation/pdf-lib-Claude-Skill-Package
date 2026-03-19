@@ -53,3 +53,38 @@ Architectural and process decisions with rationale. Each decision is numbered an
 **Context**: pdf-lib has one major version (1.x) that is actively maintained
 **Decision**: All code targets pdf-lib 1.x exclusively (latest 1.17.x). No pre-1.0 APIs.
 **Rationale**: pdf-lib 1.x is the stable, production version. The API surface is well-defined. There is no v2 yet. All skills target the current stable release.
+
+## D-008: Merge pdflib-core-setup into pdflib-core-architecture
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Phase 3 masterplan refinement — evaluating raw skill inventory
+**Decision**: Merge standalone setup skill into architecture skill
+**Rationale**: Setup is too thin standalone (just npm install + 2 imports). Architecture skill already covers key types and async design — adding installation/imports is natural.
+
+## D-009: Merge pdflib-impl-metadata into pdflib-syntax-document
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Phase 3 masterplan refinement — evaluating raw skill inventory
+**Decision**: Merge standalone metadata skill into document lifecycle skill
+**Rationale**: Metadata is just 8 getters + 9 setters on PDFDocument. Not enough for a standalone skill. Document lifecycle skill already covers PDFDocument creation/load/save — metadata fits naturally.
+
+## D-010: Reorder batches — forms + form-filling together
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Phase 3 masterplan refinement — batch planning
+**Decision**: Place syntax-forms and impl-form-filling in the same batch
+**Rationale**: Forms syntax and form-filling implementation are tightly coupled. Doing them in the same batch lets the impl skill reference the syntax skill directly.
+
+## D-011: Embed Phase 4 into Phase 5
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Comprehensive vooronderzoek (9,251 words) made standalone topic research unnecessary
+**Decision**: Skip separate Phase 4 — agents receive vooronderzoek directly during Phase 5
+**Rationale**: When Phase 2 research is thorough enough, separate per-skill research adds overhead without new information. Agents extract what they need from the vooronderzoek. Documented in LESSONS.md L-006.
+
+## D-012: WebFetch for Source Verification
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Need to ensure all code examples match current pdf-lib API
+**Decision**: Use WebFetch to verify code against official documentation during research and skill creation
+**Rationale**: Training data may be outdated. WebFetch ensures latest API signatures are used. Prevents hallucinated API methods.

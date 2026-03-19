@@ -57,3 +57,11 @@ Observations and findings captured during skill package development.
 - **Date**: 2026-03-19
 - **Context**: 2 out of 3 agents in Batch 3 hit rate limits mid-execution.
 - **Finding**: When running multiple agent batches in rapid succession, rate limits can block individual agents. Strategy: simply retry the failed agents in the next batch alongside remaining work. No data is lost — the agents that completed are fine.
+
+---
+
+## L-008: YAML Folded Block Scalar is Mandatory
+
+- **Date**: 2026-03-19
+- **Context**: Compliance audit revealed all 17 SKILL.md descriptions used quoted strings instead of folded block scalar.
+- **Finding**: The SKILL.md template requires `description: >` (folded block scalar) format, not `description: "..."` (quoted string). Quoted strings are harder to read, require escaping, and don't match the standard. All skill packages must use `>` format for multi-line descriptions. This was a systematic issue — the agent prompts in the masterplan also used quoted strings, propagating the error to all generated skills.
