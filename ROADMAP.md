@@ -1,6 +1,6 @@
 # ROADMAP
 
-## Current Phase: Phase 7 — Publication
+## Current Phase: COMPLETE
 ## Overall Progress: 17/17 skills (100%)
 
 ---
@@ -15,7 +15,7 @@
 | 4 | Topic-Specific Research | EMBEDDED IN PHASE 5 | — |
 | 5 | Skill Creation | COMPLETE | 17/17 |
 | 6 | Validation | COMPLETE | 17/17 pass |
-| 7 | Publication | IN PROGRESS | — |
+| 7 | Publication | COMPLETE | — |
 
 ---
 
@@ -74,8 +74,10 @@
 
 ## Next Steps
 
-1. Commit all changes
-2. Push to GitHub (OpenAEC-Foundation/pdf-lib-Claude-Skill-Package)
-3. Create v1.0.0 release tag
-4. Set repository topics
-5. Create GitHub release with notes
+All phases complete. Package published and audit-remediated.
+
+## Audit History
+
+| Date | Score Before | Score After | Action |
+|------|-------------|------------|--------|
+| 2026-03-19 | 29/43 (67%) | TBD (re-audit) | Full remediation: YAML migration, governance sync, tag+release |
