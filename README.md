@@ -1,5 +1,9 @@
 # pdf-lib Claude Skill Package
 
+<p align="center">
+  <img src="docs/social-preview.png" alt="17 Deterministic Skills for pdf-lib" width="100%">
+</p>
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 ![Skills: 17](https://img.shields.io/badge/Skills-17-blue?style=flat-square)
 ![pdf-lib 1.x](https://img.shields.io/badge/pdf--lib-1.x-FF0000?style=flat-square)
