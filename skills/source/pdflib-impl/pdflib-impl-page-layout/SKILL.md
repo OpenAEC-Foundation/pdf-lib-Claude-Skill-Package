@@ -6,7 +6,9 @@ description: >
   coordinates instead of pdf-lib's bottom-left origin. Provides a top-down
   positioning helper pattern (height - y).
   Covers coordinate strategies, margins, centering, multi-column, page breaks.
-  Keywords: layout, margin, center, column, coordinate, top-down, position, content flow.
+  Keywords: layout, margin, center, column, coordinate, top-down, position,
+  content flow, position content, center text, add margins, multi-column PDF,
+  page break, content overflow.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

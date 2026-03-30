@@ -5,7 +5,9 @@ description: >
   project. Prevents incomplete setup: ensures TypeScript config, fontkit
   registration, and correct imports are all in place from the start.
   Covers Node.js and browser variants, TypeScript setup, dependency installation.
-  Keywords: scaffold, setup, new project, boilerplate, TypeScript, fontkit, npm install.
+  Keywords: scaffold, setup, new project, boilerplate, TypeScript, fontkit,
+  npm install, create PDF project, start pdf-lib, generate PDF app,
+  getting started with pdf-lib.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

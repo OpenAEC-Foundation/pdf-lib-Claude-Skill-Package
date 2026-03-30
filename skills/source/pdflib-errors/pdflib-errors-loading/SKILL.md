@@ -5,7 +5,9 @@ description: >
   or unexpected parsing failures. Prevents silent data loss: pdf-lib cannot decrypt
   PDFs — ignoreEncryption only skips the check, it does not decrypt content.
   Covers encrypted PDF handling, malformed PDF recovery, load options, error patterns.
-  Keywords: load error, encrypted, ignoreEncryption, malformed, throwOnInvalidObject, parse error.
+  Keywords: load error, encrypted, ignoreEncryption, malformed,
+  throwOnInvalidObject, parse error, can't open PDF, PDF won't load,
+  encrypted PDF error, corrupted PDF, PDF parse failed.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

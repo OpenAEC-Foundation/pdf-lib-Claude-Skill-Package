@@ -5,7 +5,9 @@ description: >
   Prevents the #1 form mistake: not calling form.updateFieldAppearances() with a
   custom font before flattening, causing unicode text to disappear.
   Covers form loading, field filling, checkbox/radio/dropdown, unicode fonts, flattening.
-  Keywords: form.flatten, setText, check, select, updateFieldAppearances, PDFForm, fillable.
+  Keywords: form.flatten, setText, check, select, updateFieldAppearances,
+  PDFForm, fillable, fill PDF form, auto-fill, populate form fields,
+  lock form after filling, checkbox dropdown.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

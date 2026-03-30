@@ -5,7 +5,9 @@ description: >
   Prevents common mistakes: missing load options for encrypted PDFs, forgetting
   saveAsBase64 for browser contexts, and metadata not persisting due to wrong setter order.
   Covers PDFDocument.create(), load(), save(), metadata, attachments.
-  Keywords: PDFDocument, create, load, save, saveAsBase64, metadata, title, author, encrypt.
+  Keywords: PDFDocument, create, load, save, saveAsBase64, metadata, title,
+  author, encrypt, new PDF, open existing PDF, save PDF to file,
+  download PDF, set PDF properties.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

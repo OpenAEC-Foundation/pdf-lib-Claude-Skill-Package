@@ -5,7 +5,9 @@ description: >
   Prevents the #1 font error: using standard fonts for unicode text, which throws
   WinAnsi encoding errors. Standard fonts only support Latin-1 characters.
   Covers StandardFonts, custom TTF/OTF embedding, fontkit registration, text measuring.
-  Keywords: embedFont, StandardFonts, fontkit, registerFontkit, WinAnsi, unicode, TTF, OTF.
+  Keywords: embedFont, StandardFonts, fontkit, registerFontkit, WinAnsi,
+  unicode, TTF, OTF, use custom font, embed font in PDF, font not working,
+  add text with special characters.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

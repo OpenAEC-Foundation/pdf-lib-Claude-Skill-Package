@@ -5,7 +5,9 @@ description: >
   the library architecture. Prevents the #1 AI mistake: forgetting async/await
   on pdf-lib operations and using top-left coordinates instead of bottom-left.
   Covers PDFDocument lifecycle, key types, coordinate system, installation, fontkit setup.
-  Keywords: pdf-lib, PDFDocument, PDFPage, setup, install, coordinate system, async, await.
+  Keywords: pdf-lib, PDFDocument, PDFPage, setup, install, coordinate system,
+  async, await, how pdf-lib works, create PDF, generate PDF,
+  getting started, PDF from scratch.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

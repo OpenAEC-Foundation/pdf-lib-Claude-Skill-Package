@@ -5,7 +5,8 @@ description: >
   Prevents the common mistake of using unsupported image formats (only PNG and JPG
   are supported — no SVG, GIF, or WebP). Covers embedPng, embedJpg, drawImage,
   image scaling, aspect ratio preservation.
-  Keywords: embedPng, embedJpg, drawImage, PDFImage, scale, scaleToFit, image, PNG, JPG.
+  Keywords: embedPng, embedJpg, drawImage, PDFImage, scale, scaleToFit, image,
+  PNG, JPG, add image to PDF, insert logo, embed picture, resize image in PDF.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

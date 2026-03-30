@@ -5,7 +5,8 @@ description: >
   Prevents shipping broken PDF generation: runs a 7-point checklist covering
   async/await, coordinate system, font handling, imports, form handling, and
   known anti-patterns. Catches issues Claude's default code generation misses.
-  Keywords: review, validate, audit, checklist, code review, anti-pattern, quality check.
+  Keywords: review, validate, audit, checklist, code review, anti-pattern,
+  quality check, check my PDF code, verify pdf-lib usage, is my PDF correct.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

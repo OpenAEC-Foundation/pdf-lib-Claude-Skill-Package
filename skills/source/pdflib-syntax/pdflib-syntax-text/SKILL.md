@@ -5,7 +5,9 @@ description: >
   multiline text, and text measurement. Prevents the common mistake of using
   top-left coordinates for text positioning (pdf-lib uses bottom-left origin).
   Covers drawText options, text wrapping with maxWidth, font measurement methods.
-  Keywords: drawText, setFont, setFontSize, widthOfTextAtSize, heightAtSize, multiline, maxWidth.
+  Keywords: drawText, setFont, setFontSize, widthOfTextAtSize, heightAtSize,
+  multiline, maxWidth, add text to PDF, write text, text wrapping,
+  measure text width, position text.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

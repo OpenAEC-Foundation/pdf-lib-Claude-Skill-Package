@@ -5,7 +5,9 @@ description: >
   manipulating fields. Prevents the common mistake of not calling form.flatten()
   after filling, leaving forms editable when they should be locked.
   Covers getForm, all field types (text, checkbox, radio, dropdown), field properties, flattening.
-  Keywords: getForm, PDFForm, PDFTextField, PDFCheckBox, PDFRadioGroup, PDFDropdown, flatten.
+  Keywords: getForm, PDFForm, PDFTextField, PDFCheckBox, PDFRadioGroup,
+  PDFDropdown, flatten, read form fields, create form, add text field,
+  add checkbox, interactive PDF form.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

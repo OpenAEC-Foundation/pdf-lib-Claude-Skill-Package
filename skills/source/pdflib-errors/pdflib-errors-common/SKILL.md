@@ -6,7 +6,9 @@ description: >
   forgotten await, wrong coordinate origin, unsupported image formats, cross-document
   page errors, case-sensitive field names, color values 0-255 instead of 0-1.
   Covers async errors, coordinate bugs, image format errors, form field issues.
-  Keywords: debug, blank page, wrong position, undefined, await, coordinate, 0-255, field not found.
+  Keywords: debug, blank page, wrong position, undefined, await, coordinate,
+  0-255, field not found, PDF is blank, text in wrong place, nothing shows up,
+  PDF broken, content missing.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

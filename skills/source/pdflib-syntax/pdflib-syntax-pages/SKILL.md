@@ -5,7 +5,9 @@ description: >
   Prevents incorrect page sizing by providing the complete PageSizes enum (55 sizes)
   and correct dimension methods. Covers addPage, insertPage, removePage, getPage,
   page dimensions, rotation, page boxes, content transformations.
-  Keywords: addPage, insertPage, removePage, getPage, PageSizes, setSize, rotation.
+  Keywords: addPage, insertPage, removePage, getPage, PageSizes, setSize,
+  rotation, add page, remove page, page size, A4, Letter, rotate page,
+  blank page.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:

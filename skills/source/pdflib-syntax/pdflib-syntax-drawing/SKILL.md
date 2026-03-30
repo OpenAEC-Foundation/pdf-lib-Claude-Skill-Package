@@ -5,7 +5,9 @@ description: >
   Prevents the common color value mistake: pdf-lib uses 0-1 range for rgb/cmyk,
   not 0-255. Covers drawRectangle, drawCircle, drawLine, drawSvgPath,
   color constructors (rgb, cmyk, grayscale), rotation helpers.
-  Keywords: drawRectangle, drawCircle, drawLine, drawSvgPath, rgb, cmyk, grayscale, BlendMode.
+  Keywords: drawRectangle, drawCircle, drawLine, drawSvgPath, rgb, cmyk,
+  grayscale, BlendMode, draw shapes, add line, draw on PDF, colors,
+  rectangles circles, SVG path.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdf-lib 1.x with TypeScript/JavaScript."
 metadata:
