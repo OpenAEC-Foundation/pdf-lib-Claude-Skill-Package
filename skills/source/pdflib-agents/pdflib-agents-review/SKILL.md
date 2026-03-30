@@ -19,7 +19,7 @@ metadata:
 
 This skill provides a step-by-step validation checklist for reviewing pdf-lib code. Follow EVERY check in order. Each check includes what to verify, why it matters, and how to fix violations.
 
-## Quick Reference — Severity Legend
+## Quick Reference: Severity Legend
 
 | Level | Meaning |
 |-------|---------|

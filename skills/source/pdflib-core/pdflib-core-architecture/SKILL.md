@@ -158,7 +158,7 @@ npm install pdf-lib
 npm install @pdf-lib/fontkit
 ```
 
-### CDN (UMD — Browser)
+### CDN (UMD: Browser)
 
 ```html
 <!-- Pin version for production -->

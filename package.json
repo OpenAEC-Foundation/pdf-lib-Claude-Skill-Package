@@ -1,0 +1,41 @@
+{
+  "name": "@openaec/pdf-lib-claude-skill-package",
+  "version": "1.1.0",
+  "description": "17 deterministic skills that teach Claude to write correct pdf-lib code for PDF document generation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/pdf-lib-Claude-Skill-Package"
+  },
+  "keywords": [
+    "agent-skills",
+    "agentskills",
+    "claude-skills",
+    "pdf-lib",
+    "pdf",
+    "document-generation",
+    "typescript",
+    "deterministic"
+  ],
+  "agents": {
+    "skills": [
+      { "name": "pdflib-agents-project-scaffolder", "path": "./skills/source/pdflib-agents/pdflib-agents-project-scaffolder" },
+      { "name": "pdflib-agents-review", "path": "./skills/source/pdflib-agents/pdflib-agents-review" },
+      { "name": "pdflib-core-architecture", "path": "./skills/source/pdflib-core/pdflib-core-architecture" },
+      { "name": "pdflib-errors-common", "path": "./skills/source/pdflib-errors/pdflib-errors-common" },
+      { "name": "pdflib-errors-fonts", "path": "./skills/source/pdflib-errors/pdflib-errors-fonts" },
+      { "name": "pdflib-errors-loading", "path": "./skills/source/pdflib-errors/pdflib-errors-loading" },
+      { "name": "pdflib-impl-form-filling", "path": "./skills/source/pdflib-impl/pdflib-impl-form-filling" },
+      { "name": "pdflib-impl-merging", "path": "./skills/source/pdflib-impl/pdflib-impl-merging" },
+      { "name": "pdflib-impl-page-layout", "path": "./skills/source/pdflib-impl/pdflib-impl-page-layout" },
+      { "name": "pdflib-impl-pdf-generation", "path": "./skills/source/pdflib-impl/pdflib-impl-pdf-generation" },
+      { "name": "pdflib-syntax-document", "path": "./skills/source/pdflib-syntax/pdflib-syntax-document" },
+      { "name": "pdflib-syntax-drawing", "path": "./skills/source/pdflib-syntax/pdflib-syntax-drawing" },
+      { "name": "pdflib-syntax-fonts", "path": "./skills/source/pdflib-syntax/pdflib-syntax-fonts" },
+      { "name": "pdflib-syntax-forms", "path": "./skills/source/pdflib-syntax/pdflib-syntax-forms" },
+      { "name": "pdflib-syntax-images", "path": "./skills/source/pdflib-syntax/pdflib-syntax-images" },
+      { "name": "pdflib-syntax-pages", "path": "./skills/source/pdflib-syntax/pdflib-syntax-pages" },
+      { "name": "pdflib-syntax-text", "path": "./skills/source/pdflib-syntax/pdflib-syntax-text" }
+    ]
+  }
+}

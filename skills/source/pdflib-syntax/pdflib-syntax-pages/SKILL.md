@@ -13,7 +13,7 @@ metadata:
   version: "1.0"
 ---
 
-# pdflib-syntax-pages — Page Operations in pdf-lib
+# pdflib-syntax-pages: Page Operations in pdf-lib
 
 ## Quick Reference
 

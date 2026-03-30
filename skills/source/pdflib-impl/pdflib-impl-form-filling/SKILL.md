@@ -43,7 +43,7 @@ const pdfBytes = await pdfDoc.save()
 
 ## Step-by-Step: Fill an Existing Form
 
-### Step 1 — Load PDF and Get Form
+### Step 1: Load PDF and Get Form
 
 ```typescript
 import { PDFDocument } from 'pdf-lib'
@@ -54,7 +54,7 @@ const form = pdfDoc.getForm()
 
 ALWAYS use `PDFDocument.load()` for existing PDFs. NEVER use `PDFDocument.create()` when filling an existing form.
 
-### Step 2 — Enumerate Fields
+### Step 2: Enumerate Fields
 
 ALWAYS enumerate fields before filling. Field names are case-sensitive and use fully qualified dot-separated names (e.g., `"form.section.fieldName"`).
 
@@ -67,7 +67,7 @@ fields.forEach(field => {
 })
 ```
 
-### Step 3 — Fill Fields by Type
+### Step 3: Fill Fields by Type
 
 **Text fields:**
 ```typescript
@@ -107,7 +107,7 @@ const image = await pdfDoc.embedPng(imageBytes)
 form.getButton('Photo').setImage(image)
 ```
 
-### Step 4 — Unicode / Custom Font Support
+### Step 4: Unicode / Custom Font Support
 
 > See [references/methods.md](references/methods.md) for font method signatures.
 
@@ -145,7 +145,7 @@ ALWAYS register fontkit before calling `embedFont()` with custom font bytes. Omi
 
 ALWAYS call `form.updateFieldAppearances(customFont)` AFTER setting all field values. This applies the custom font to all dirty fields.
 
-### Step 5 — Flatten or Save Editable
+### Step 5: Flatten or Save Editable
 
 #### When to Flatten Decision Tree
 

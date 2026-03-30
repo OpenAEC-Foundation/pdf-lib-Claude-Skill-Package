@@ -353,7 +353,7 @@ mergePdfs(['doc1.pdf', 'doc2.pdf', 'doc3.pdf'], 'merged.pdf').catch(console.erro
 
 ## File Output Patterns
 
-### Node.js — Write to File
+### Node.js: Write to File
 
 ```typescript
 import * as fs from 'fs';
@@ -362,7 +362,7 @@ const pdfBytes: Uint8Array = await pdfDoc.save();
 fs.writeFileSync('output.pdf', pdfBytes);
 ```
 
-### Node.js — Write to Stream
+### Node.js: Write to Stream
 
 ```typescript
 import * as fs from 'fs';
@@ -373,7 +373,7 @@ stream.write(Buffer.from(pdfBytes));
 stream.end();
 ```
 
-### Browser — Download
+### Browser: Download
 
 ```typescript
 const pdfBytes: Uint8Array = await pdfDoc.save();
@@ -386,7 +386,7 @@ link.click();
 URL.revokeObjectURL(url);
 ```
 
-### Browser — Open in New Tab
+### Browser: Open in New Tab
 
 ```typescript
 const pdfBytes: Uint8Array = await pdfDoc.save();
@@ -395,7 +395,7 @@ const url = URL.createObjectURL(blob);
 window.open(url);
 ```
 
-### Browser — Embed as Data URI
+### Browser: Embed as Data URI
 
 ```typescript
 const dataUri: string = await pdfDoc.saveAsBase64({ dataUri: true });

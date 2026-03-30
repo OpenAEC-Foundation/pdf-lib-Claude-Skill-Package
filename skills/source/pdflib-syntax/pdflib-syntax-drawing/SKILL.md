@@ -59,7 +59,7 @@ What shape do you need?
     └── page.drawSvgPath('M 0,0 L 100,100 ...', { scale, color })
 ```
 
-## Quick Reference — Color Constructors
+## Quick Reference: Color Constructors
 
 | Constructor | Parameters | Range | Example |
 |------------|-----------|-------|---------|
@@ -81,7 +81,7 @@ const yellow  = rgb(1, 1, 0)
 const gray50  = grayscale(0.5)
 ```
 
-## Quick Reference — All Shape Methods
+## Quick Reference: All Shape Methods
 
 ### drawRectangle
 

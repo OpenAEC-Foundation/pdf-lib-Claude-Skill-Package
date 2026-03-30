@@ -13,7 +13,7 @@ metadata:
   version: "1.0"
 ---
 
-# pdf-lib Text Drawing — Syntax Reference
+# pdf-lib Text Drawing: Syntax Reference
 
 ## Quick Reference
 

@@ -13,7 +13,7 @@ metadata:
   version: "1.0"
 ---
 
-# pdf-lib Form Fields — Syntax Reference
+# pdf-lib Form Fields: Syntax Reference
 
 ## Quick Reference
 

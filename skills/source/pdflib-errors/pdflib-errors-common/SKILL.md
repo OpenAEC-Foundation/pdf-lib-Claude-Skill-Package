@@ -14,7 +14,7 @@ metadata:
   version: "1.0"
 ---
 
-# Common pdf-lib Errors — Diagnosis & Fixes
+# Common pdf-lib Errors: Diagnosis & Fixes
 
 > Non-font, non-loading errors. For font/encoding errors see `pdflib-errors-fonts`.
 > For document loading errors see `pdflib-errors-loading`.
@@ -35,7 +35,7 @@ When pdf-lib code produces unexpected results, check these in order:
 
 ---
 
-## Decision Tree — "My PDF Output Looks Wrong"
+## Decision Tree: "My PDF Output Looks Wrong"
 
 ```
 PDF output is wrong
@@ -260,7 +260,7 @@ const pdfBytes = await pdfDoc.save({
 
 **Severity: MEDIUM** — Some drawing methods use non-obvious parameter names.
 
-### `drawEllipse` — Uses `xScale`/`yScale`, NOT `width`/`height`
+### `drawEllipse`: Uses `xScale`/`yScale`, NOT `width`/`height`
 
 **Broken:**
 ```typescript
@@ -272,7 +272,7 @@ page.drawEllipse({ x: 200, y: 200, width: 100, height: 50 }); // width/height IG
 page.drawEllipse({ x: 200, y: 200, xScale: 100, yScale: 50 });
 ```
 
-### `drawLine` — Uses `thickness`, NOT `borderWidth`
+### `drawLine`: Uses `thickness`, NOT `borderWidth`
 
 **Broken:**
 ```typescript
@@ -304,7 +304,7 @@ const keywordArray = keywords?.split(',') ?? []; // Parse back to array
 
 ---
 
-## §13 Page Rotation — Multiples of 90 Only
+## §13 Page Rotation: Multiples of 90 Only
 
 **Severity: LOW** — Page rotation ONLY accepts multiples of 90 degrees.
 

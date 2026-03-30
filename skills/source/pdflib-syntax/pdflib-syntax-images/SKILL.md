@@ -13,7 +13,7 @@ metadata:
   version: "1.0"
 ---
 
-# pdflib-syntax-images — Image Embedding & Drawing
+# pdflib-syntax-images: Image Embedding & Drawing
 
 ## Quick Reference
 
@@ -130,7 +130,7 @@ page.drawImage(image: PDFImage, options?: PDFPageDrawImageOptions): void
 | `opacity` | `number` | `1.0` | Transparency 0.0 (invisible) to 1.0 (opaque) |
 | `blendMode` | `BlendMode` | `Normal` | Color blending method |
 
-## Aspect Ratio Preservation — Three Patterns
+## Aspect Ratio Preservation: Three Patterns
 
 ### Pattern 1: Uniform Scale Factor
 
